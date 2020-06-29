@@ -1,0 +1,111 @@
+
+.th-img{
+	height: 160px;
+	background-image: url(th.jpg);
+	background-size: cover;
+	padding-top: 5px;/*
+	background-position: center;*/
+}
+
+header{
+
+	background-image: url(th.jpg);
+	background-size: cover;
+height: 400px;
+padding-top: 5px;}/*
+	margin-left: 40px;*/
+	/*
+	background-color: transparent;
+	background-repeat: no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    */
+.boy {
+	color: black;
+	padding-left: 50px;
+	text-align: center;
+}
+.button {
+	height: 40px;
+	width: 140px;
+	opacity: 0.6;
+	margin: 0px;
+	color: black;
+	text-align: center;
+}
+.b {
+	opacity: 1;
+	color: blue;
+	background-color: white;
+	text-align: center;
+}
+
+#h2{
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+.box{
+	width: 250px;
+	height: 500px;
+	background: #649405;
+	float: left;
+	margin-right: 20px;
+}
+
+#ul{
+	margin: 20px;	
+}
+
+/* 
+Margin: empty space around my element
+Border: border/stroke around the element
+Padding: empty space with background around my element
+*/
+
+.img1{
+	width: 180px;
+	height: 110px;
+	margin: 35px 35px 10px;
+	border: 2px solid black;
+}
+
+.img2{
+	width: 180px;
+	height: 110px;
+	margin: 10px 35px;
+	border: 2px solid black;
+}
+.img3{width: 180px;
+	height: 110px;
+	margin: 10px 35px;
+	border: 2px solid black;
+
+}
+.txt{
+	margin-left: 20px;
+}
+
+/*Pseudo classes for anchor tag */
+a:link{
+	font-size: 15px;
+}
+
+a:visited{
+	color: brown;
+}
+
+a:hover{
+	font-size: 25px;
+}
+
+a:focus{
+	background: yellow;
+}
+
+a:active{
+	color: green;
+	font-weight: 900;
+}
